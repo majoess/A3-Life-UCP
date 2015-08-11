@@ -1,0 +1,19 @@
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+.text {
+padding-top: 10%;
+font-family: 'Orbitron', sans-serif;
+color: white;
+font-size: 100px;
+text-shadow: 2px 2px 8px;
+}
