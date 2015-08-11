@@ -7,4 +7,4 @@
 
 UCP für A3 Life (Altis Life, Tanoa Life, ArmA Life, etc.) . Spieler können ihr Geld, Fahrzeuge, Gangs etc. anschauen. Admin Funktionen sind auch verfügbar. Eventuell wird es auch die Funktion geben, das man sich per Steam-OpenID einloggen kann und dann auch die Gang etc. verwalten kann.
 
-Hier sind neue Änderungen zu finden, welche noch getestet werden müssen. Wenn sie ausgiebig getestet sind, sind sie in der branch `master` zu finden
+Hier sind neue Änderungen zu finden, welche noch getestet werden müssen. Wenn sie ausgiebig getestet sind, sind sie in der branch `master` zu finden.
