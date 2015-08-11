@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta-Informationen -->
+		
+		<title> A3-Life Webinterface </title>
+		
+		<!-- Schriftarten & Style wird geladen und Schriftarten werden gesetzt -->
+		<link href='http://fonts.googleapis.com/css?family=Orbitron|PT+Sans+Caption' rel='stylesheet' type='text/css'>
+		<link href="css/main.css" type="text/css" rel="stylesheet">
+		
+
+
+	</head>
+	
+	<body onload="getTime()">
+		<font align="center">
+			<div class="text" id="showtime">
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-6">
+				<div class="input-group">
+					<span class="input-group-btn">
+					<button class="btn btn-default" type="button">Abrufen!</button>
+					</span>
+					<input type="text" class="form-control" placeholder="Steam 64ID">
+			</div>
+		</font>
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script>
+		function getTime() {
+			var today = new Date();
+			var h = today.getHours();
+			var m = today.getMinutes();
+			var s = today.getSeconds();
+			// add a zero in front of numbers<10
+			m = checkTime(m);
+			s = checkTime(s);
+			document.getElementById('showtime').innerHTML = h + ":" + m + ":" + s;
+			t = setTimeout(function () {
+				getTime()
+			}, 500);
+		}
+
+		function checkTime(i) {
+			if (i < 10) {
+				i = "0" + i;
+			}
+			return i;
+		}
+		</script>
+	</body>
+</html>
