@@ -1,6 +1,6 @@
 # A3-Life-UCP
 
-I'm sorry, but i've created no english translation for this readme.md
+*I'm sorry, but i've created no english translation for this readme.md -> Pull request with english translation would be very kind of you*
 
 UCP für A3 Life (Altis Life, Tanoa Life, ArmA Life, etc.) . Spieler können ihr Geld, Fahrzeuge, Gangs etc. anschauen. Admin Funktionen sind auch verfügbar. Eventuell wird es auch die Funktion geben, das man sich per Steam-OpenID einloggen kann und dann auch die Gang etc. verwalten kann.
 
