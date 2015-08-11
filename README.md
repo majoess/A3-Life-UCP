@@ -11,16 +11,16 @@ Das Skript benötigt zurzeit nur `READ-ACCESS` zur Datenbank. Das bedeutig für 
 
 ## Features
 
-> *Die Features sind zum Teil vorhanden oder auch nicht.*
->* Normale Spieler können folgendes anschauen
->  * ihr eigenes Geld (Bank + Bargeld)
->  * ihre eigenen Fahrzeuge
->  * ihre Gang (mit Mitgliedern)
->  * Geld versenden (Nur Angemeldet)
->  * die Gang verwalten (Nur Angemeldet)
->* Admins können folgendes
->  * ...
->  * ...
+ *Die Features sind zum Teil vorhanden oder auch nicht. Bereits mögliche Features sind *dick* gedruckt*
+* Normale Spieler können folgendes anschauen
+  * ihr eigenes Geld (Bank + Bargeld)
+  * ihre eigenen Fahrzeuge
+  * ihre Gang (mit Mitgliedern)
+  * Geld versenden (Nur Angemeldet)
+  * die Gang verwalten (Nur Angemeldet)
+* Admins können folgendes
+  * ...
+  * ...
 
 ## Anforderungen
 
