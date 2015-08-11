@@ -11,7 +11,7 @@ Das Skript benötigt zurzeit nur `READ-ACCESS` zur Datenbank. Das bedeutig für 
 
 ## Features
 
-> *Die Feature sind zum Teil vorhanden oder auch nicht.*
+> *Die Features sind zum Teil vorhanden oder auch nicht.*
 >* Normale Spieler können folgendes anschauen
 >  * ihr eigenes Geld (Bank + Bargeld)
 >  * ihre eigenen Fahrzeuge
