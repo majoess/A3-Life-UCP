@@ -3,11 +3,13 @@
 	<head>
 		<!-- Meta-Informationen -->
 		
-		<title> A3-Life Webinterface </title>
+		<title> A3-Life UCP </title>
 		
 		<!-- Schriftarten & Style wird geladen und Schriftarten werden gesetzt -->
-		<link href='http://fonts.googleapis.com/css?family=Orbitron|PT+Sans+Caption' rel='stylesheet' type='text/css'>
+<!--		<link href='http://fonts.googleapis.com/css?family=Orbitron|PT+Sans+Caption' rel='stylesheet' type='text/css'> -->
 		<link href="css/main.css" type="text/css" rel="stylesheet">
+		<link href="css/button.css" type="text/css" rel="stylesheet">
+		<link href="css/progressbar.css" type="text/css" rel="stylesheet">
 		
 
 
@@ -15,17 +17,32 @@
 	
 	<body onload="getTime()">
 		<font align="center">
-			<div class="text" id="showtime">
-			</div>
+			<div class="text" id="showtime"></div>
 			
 			<div class="row">
 				<div class="col-lg-6">
 				<div class="input-group">
 					<span class="input-group-btn">
-					<button class="btn btn-default" type="button">Abrufen!</button>
+						<button class="btn btn-default" type="button">Abrufen!</button>
 					</span>
 					<input type="text" class="form-control" placeholder="Steam 64ID">
 			</div>
+			
+			<div class="status-allgemein">
+			<center><font size="5px" color="white">Aktueller Entwicklungsstatus:</font></center>
+			<div class="status">
+			<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+						<span class="sr-only">
+							<font color="black">10% Abgeschlossen</font>
+						</span>
+					</div>
+				</div>
+			</div>
+			<center><a href="https://github.com/majoess/A3-Life-UCP">Neue Version!</a></center>
+			</div>
+			
+			
 		</font>
 		
 		
